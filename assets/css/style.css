@@ -135,37 +135,39 @@ img {
   max-height: 608px;
 }
 
-.features {
+.services {
   margin-top: 170px;
 }
-.features .section-header {
+.services .section-header {
   text-align: center;
   margin-bottom: 80px;
 }
-.features .section-header h5 {
+.services .section-header h5 {
   font-size: 36px;
   width: 35%;
   margin: auto;
 }
-.features .card {
+.services .card {
   border: 0;
   margin-bottom: 15px;
 }
-.features .card .card-img {
+.services .card .card-img {
   text-align: center;
 }
-.features .card .card-img img {
+.services .card .card-img img {
   width: auto;
   max-height: 90px;
   margin: auto;
 }
-.features .card .card-title {
+.services .card .card-title {
   margin: 0;
   text-align: center;
   font-size: 25px;
   margin-top: 36px;
+  color: #000;
+  text-decoration: none;
 }
-.features .card .card-text {
+.services .card .card-text {
   font-size: 16px;
   color: #9A9A9A;
   margin: 0;
@@ -351,7 +353,7 @@ img {
     margin-top: 0;
   }
 
-  .features .section-header h5 {
+  .services .section-header h5 {
     width: 100%;
   }
 
