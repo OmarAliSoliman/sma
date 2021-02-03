@@ -98,6 +98,24 @@ img {
 
 .header {
   margin-top: 170px;
+  position: relative;
+}
+.header .circle-1 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: -130px;
+  left: 360px;
+}
+.header .header-content {
+  position: relative;
+}
+.header .header-content .circle-2 {
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 0;
+  top: -90px;
 }
 .header .header-content h6 {
   color: #45c3d2;
@@ -560,6 +578,88 @@ img {
   width: 1122px !important;
   height: 748px;
 }
+.contact .btn-submit .btn {
+  width: 159px;
+  height: 61px;
+  background-color: #45c3d2;
+  color: #fff;
+}
+.contact .btn-submit .btn:hover {
+  color: #45c3d2;
+  background-color: #fff;
+  border: 1px solid #45c3d2;
+}
+
+footer {
+  background-image: linear-gradient(to top, #eaefff, white);
+  margin-top: 80px;
+  padding-top: 55px;
+  padding-bottom: 34px;
+}
+footer .footer-logo img {
+  width: 94px;
+  height: 48px;
+}
+footer .footer-logo p {
+  font-size: 14px;
+  color: #7A7C89;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .footer-logo a {
+  display: inline-block;
+  margin-left: 25px;
+}
+footer .footer-logo a .fa-facebook-f {
+  color: #0055E0;
+}
+footer .footer-logo a .fa-instagram {
+  color: #8A04D4;
+}
+footer .footer-logo a .fa-twitter {
+  color: #45C3D2;
+}
+footer .footer-logo a .fa-linkedin-in {
+  color: #0077B5;
+}
+footer .info h5 {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+footer .info ul li {
+  margin-bottom: 17px;
+}
+footer .info ul li a {
+  font-size: 14px;
+  color: #7a7c89;
+}
+footer .footer-contact li {
+  padding-right: 30px;
+  position: relative;
+}
+footer .footer-contact li span {
+  font-size: 13px;
+  color: #7a7c89;
+}
+footer .footer-contact img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.copy {
+  background-color: #45c3d2;
+  padding: 20px;
+  text-align: center;
+  color: #ffff;
+}
+.copy span {
+  color: #ffff;
+  font-size: 17px;
+}
 
 @media (max-width: 1024px) {
   .header {
@@ -640,8 +740,23 @@ img {
   }
 }
 @media (max-width: 524px) {
+  .circle-1 {
+    display: none;
+  }
+
+  .circle-2 {
+    display: none;
+  }
+
+  .header {
+    text-align: center;
+  }
   .header .header-img {
     display: none;
+  }
+
+  .services {
+    margin-top: 130px;
   }
 
   .about-us .about-us-img .card-img {
@@ -661,6 +776,10 @@ img {
   }
   .we-are-in .we-are-in-img {
     position: unset;
+  }
+
+  .contact {
+    padding: 46px 19px;
   }
 }
 .about-us .about-us-img .card-img, .blogs .blogs-cards .card .card-img, .sma-team::after {
