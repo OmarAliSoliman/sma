@@ -45,7 +45,7 @@ img {
   border-radius: 50%;
 }
 .pagination .page-item .active {
-  background-color: #239BD5;
+  background-color: #239bd5;
   color: #fff;
 }
 
@@ -70,7 +70,7 @@ img {
   margin-right: 65px;
 }
 .navbar .navbar-nav .nav-item:last-child {
-  background-color: #45C3D2;
+  background-color: #45c3d2;
   border-radius: 26px;
   position: absolute;
   left: 0;
@@ -87,33 +87,33 @@ img {
 .navbar .navbar-nav .nav-item:last-child:hover {
   background-color: #fff;
   background-position: right;
-  border: 1px solid #45C3D2;
+  border: 1px solid #45c3d2;
 }
 .navbar .navbar-nav .nav-item:last-child:hover .nav-link {
-  color: #45C3D2;
+  color: #45c3d2;
 }
 .navbar .navbar-nav .nav-item:last-child:hover .nav-link i {
-  color: #45C3D2;
+  color: #45c3d2;
 }
 
 .header {
   margin-top: 170px;
 }
 .header .header-content h6 {
-  color: #45C3D2;
+  color: #45c3d2;
   font-size: 30px;
 }
 .header .header-content h5 {
   font-size: 50px;
 }
 .header .header-content p {
-  color: #C8C8C8;
+  color: #c8c8c8;
   font-size: 20px;
   width: 80%;
   margin-top: 25px;
 }
 .header .header-content .btn {
-  background-color: #45C3D2;
+  background-color: #45c3d2;
   color: #fff;
   border-radius: 26px;
   width: 244px;
@@ -124,8 +124,8 @@ img {
 .header .header-content .btn:hover {
   background-color: #fff;
   background-position: right;
-  color: #45C3D2;
-  border: 1px solid #45C3D2;
+  color: #45c3d2;
+  border: 1px solid #45c3d2;
 }
 .header .header-img {
   text-align: left;
@@ -169,7 +169,7 @@ img {
 }
 .services .card .card-text {
   font-size: 16px;
-  color: #9A9A9A;
+  color: #9a9a9a;
   margin: 0;
   margin-top: 20px;
 }
@@ -204,7 +204,7 @@ img {
 }
 .about-us .about-us-img .card-img .about-experince h5 {
   margin: 0;
-  color: #239BD5;
+  color: #239bd5;
   font-size: 20px;
   margin-top: 13px;
   margin-bottom: 4px;
@@ -212,10 +212,10 @@ img {
 .about-us .about-us-img .card-img .about-experince p {
   margin: 0;
   font-size: 18px;
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 .about-us .about-us-content h6 {
-  color: #45C3D2;
+  color: #45c3d2;
   font-size: 22px;
   margin: 0;
   margin-bottom: 31px;
@@ -227,11 +227,11 @@ img {
 }
 .about-us .about-us-content p {
   font-size: 20px;
-  color: #7A7C89;
+  color: #7a7c89;
   margin-bottom: 50px;
 }
 .about-us .about-us-content .btn {
-  background-color: #45C3D2;
+  background-color: #45c3d2;
   color: #fff;
   color: #fff;
   border-radius: 26px;
@@ -243,8 +243,8 @@ img {
 .about-us .about-us-content .btn:hover {
   background-color: #fff;
   background-position: right;
-  color: #45C3D2;
-  border: 1px solid #45C3D2;
+  color: #45c3d2;
+  border: 1px solid #45c3d2;
 }
 
 .faq {
@@ -252,7 +252,7 @@ img {
   position: relative;
 }
 .faq .faq-content h6 {
-  color: #45C3D2;
+  color: #45c3d2;
   margin-bottom: 24px;
   font-size: 20px;
 }
@@ -282,7 +282,7 @@ img {
 }
 .faq .faq-content .card .card-header .btn-link::after {
   content: "";
-  color: #45C3D2;
+  color: #45c3d2;
   position: absolute;
   left: 25px;
   top: 50%;
@@ -292,7 +292,7 @@ img {
 .faq .faq-content .card .card-body {
   padding-top: 0;
   font-size: 12px;
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 .faq .faq-content .card .card-header .btn-link[aria-expanded=true]::after {
   content: "";
@@ -307,6 +307,258 @@ img {
   max-height: 540px;
   border-top-right-radius: 110px;
   border-bottom-left-radius: 120px;
+}
+
+.blogs {
+  margin-top: 113px;
+}
+.blogs .section-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.blogs .section-header h6 {
+  font-size: 20px;
+  color: #45c3d2;
+  margin: 0;
+}
+.blogs .section-header h5 {
+  font-size: 42px;
+  margin: 0;
+  margin-top: 28px;
+}
+.blogs .blogs-cards .card {
+  background-color: #fff;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 33px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.05);
+  border: 0;
+}
+.blogs .blogs-cards .card .card-img {
+  height: 338px;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 33px;
+}
+.blogs .blogs-cards .card .card-body {
+  padding-top: 0;
+  padding-right: 10px;
+}
+.blogs .blogs-cards .card .card-title {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 19px;
+  margin-bottom: 11px;
+}
+.blogs .blogs-cards .card .card-text {
+  font-size: 13px;
+  margin: 0;
+  color: #7a7c89;
+}
+.blogs .blogs-cards .card .card-link {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #45c3d2;
+  display: inline-block;
+}
+
+.sma-team {
+  margin-top: 113px;
+  position: relative;
+}
+.sma-team .section-header {
+  margin-bottom: 60px;
+}
+.sma-team .section-header h6 {
+  font-size: 20px;
+  color: #45c3d2;
+  margin: 0;
+}
+.sma-team .section-header h5 {
+  font-size: 42px;
+  margin: 0;
+  margin-top: 28px;
+}
+.sma-team .sma-team-slider {
+  position: relative;
+  z-index: 9;
+}
+.sma-team .sma-team-slider .slider-item img {
+  height: 420px;
+  border-radius: 41px;
+  width: 275px;
+  margin: auto;
+}
+.sma-team .sma-team-slider .slider-item:focus {
+  outline: 0 !important;
+}
+.sma-team .sma-team-slider .slick-prev {
+  left: -60px;
+  z-index: 9;
+}
+.sma-team .sma-team-slider .slick-prev::before {
+  content: "";
+  width: 75px !important;
+  height: 75px !important;
+  display: inline-block;
+  background-color: #45c3d2;
+  z-index: 9 !important;
+  line-height: 75px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px !important;
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.sma-team .sma-team-slider .slick-next {
+  right: -10px;
+}
+.sma-team .sma-team-slider .slick-next::before {
+  content: "";
+  width: 75px !important;
+  height: 75px !important;
+  display: inline-block;
+  background-color: #45c3d2;
+  z-index: 9 !important;
+  line-height: 75px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px !important;
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.sma-team .sma-team-slider .slick-slide.slick-current, .sma-team .sma-team-slider .slick-slide.slick-center {
+  position: relative;
+}
+.sma-team .sma-team-slider .slick-slide.slick-current::after, .sma-team .sma-team-slider .slick-slide.slick-center::after {
+  content: "";
+  background-image: linear-gradient(to bottom, rgba(69, 195, 210, 0), rgba(69, 195, 210, 0.3), rgba(69, 195, 210, 0.4));
+  width: 275px;
+  height: 100%;
+  border-radius: 41px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 0;
+}
+.sma-team::after {
+  content: "";
+  background-image: url("../images/sma-team.png");
+  position: absolute;
+  height: 322px;
+  width: 100%;
+  bottom: -150px;
+}
+
+.all-services {
+  background-color: #45c3d2;
+  position: relative;
+  z-index: 9;
+  margin-top: 122px;
+  border-bottom-left-radius: 204px;
+}
+.all-services .section-header {
+  margin-bottom: 88px;
+}
+.all-services .section-header h5 {
+  text-align: center;
+  font-size: 42px;
+  color: #fff;
+}
+.all-services .serv h5 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.all-services .serv ul li {
+  margin-bottom: 22px;
+}
+.all-services .serv ul li a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.we-are-in {
+  margin-top: 130px;
+}
+.we-are-in .section-header {
+  margin-bottom: 80px;
+}
+.we-are-in .section-header h6 {
+  font-size: 20px;
+  color: #45c3d2;
+  margin: 0;
+}
+.we-are-in .section-header h5 {
+  font-size: 42px;
+  margin: 0;
+  margin-top: 28px;
+}
+.we-are-in .places table .country h5 {
+  font-size: 22px;
+  width: 70%;
+}
+.we-are-in .places table .cities span {
+  color: #7a7c89;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.we-are-in .we-are-in-img {
+  position: absolute;
+  left: -90px;
+}
+.we-are-in .we-are-in-img img {
+  width: 477px;
+  margin-right: auto;
+  max-height: 540px;
+  border-top-right-radius: 110px;
+  border-bottom-left-radius: 120px;
+}
+
+.contact-parent {
+  overflow: hidden;
+  height: 750px;
+  padding-top: 150px;
+}
+
+.contact {
+  background-color: #dcf4ff;
+  height: 575px;
+  padding: 46px 51px;
+  border-radius: 14px;
+  position: relative;
+}
+.contact .contact-form h5 {
+  font-size: 30px;
+  margin-bottom: 45px;
+  color: #45c3d2;
+}
+.contact .contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact .contact-form .form-group .form-control {
+  height: 61px;
+  border: 0;
+  border-radius: 9px;
+}
+.contact .contact-form .form-group .form-control::placeholder {
+  font-size: 14px;
+  color: #c8c8c8;
+}
+.contact .contact-form .form-group textarea {
+  height: 179px !important;
+}
+.contact .contact-img {
+  position: absolute;
+  left: -250px;
+  top: -220px;
+}
+.contact .contact-img img {
+  max-width: 1122px !important;
+  width: 1122px !important;
+  height: 748px;
 }
 
 @media (max-width: 1024px) {
@@ -364,6 +616,28 @@ img {
   .faq .faq-img {
     display: none;
   }
+
+  .sma-team .sma-team-slider .slick-next {
+    right: 53px;
+  }
+  .sma-team .sma-team-slider .slick-prev {
+    left: 0;
+  }
+
+  .all-services .serv {
+    margin-top: 30px;
+  }
+
+  .contact-parent {
+    height: auto;
+  }
+  .contact-parent .contact .contact-img {
+    display: none;
+  }
+
+  .we-are-in .we-are-in-img {
+    position: unset;
+  }
 }
 @media (max-width: 524px) {
   .header .header-img {
@@ -380,13 +654,21 @@ img {
   .faq .faq-content .card .btn-link {
     font-size: 18px !important;
   }
+
+  .we-are-in .places .cities span {
+    font-size: 16px !important;
+    margin-left: 4px !important;
+  }
+  .we-are-in .we-are-in-img {
+    position: unset;
+  }
 }
-.about-us .about-us-img .card-img {
+.about-us .about-us-img .card-img, .blogs .blogs-cards .card .card-img, .sma-team::after {
   background-size: cover;
   background-position: center;
 }
 
-.faq .faq-content .card .card-header .btn-link::after {
+.faq .faq-content .card .card-header .btn-link::after, .sma-team .sma-team-slider .slick-prev::before, .sma-team .sma-team-slider .slick-next::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 10px;
@@ -400,7 +682,7 @@ img {
 .select2-container--default .select2-selection--single {
   height: 50px;
   border: 1px solid #ced4da;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 .select2-container--default .select2-selection--single:focus {
   outline: 0;
@@ -430,7 +712,7 @@ img {
 }
 .when-login-view .dropdown-item i {
   font-size: 14px;
-  color: #45C3D2;
+  color: #45c3d2;
   margin-left: 5px;
 }
 
