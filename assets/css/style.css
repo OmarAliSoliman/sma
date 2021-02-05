@@ -409,7 +409,7 @@ img {
   outline: 0 !important;
 }
 .sma-team .sma-team-slider .slick-prev {
-  left: -60px;
+  left: 0px;
   z-index: 9;
 }
 .sma-team .sma-team-slider .slick-prev::before {
@@ -428,7 +428,7 @@ img {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .sma-team .sma-team-slider .slick-next {
-  right: -10px;
+  right: -60px;
 }
 .sma-team .sma-team-slider .slick-next::before {
   content: "";
@@ -447,6 +447,11 @@ img {
 }
 .sma-team .sma-team-slider .slick-slide.slick-current, .sma-team .sma-team-slider .slick-slide.slick-center {
   position: relative;
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 .sma-team .sma-team-slider .slick-slide.slick-current::after, .sma-team .sma-team-slider .slick-slide.slick-center::after {
   content: "";
@@ -602,7 +607,7 @@ footer .footer-logo img {
 }
 footer .footer-logo p {
   font-size: 14px;
-  color: #7A7C89;
+  color: #7a7c89;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -611,16 +616,16 @@ footer .footer-logo a {
   margin-left: 25px;
 }
 footer .footer-logo a .fa-facebook-f {
-  color: #0055E0;
+  color: #0055e0;
 }
 footer .footer-logo a .fa-instagram {
-  color: #8A04D4;
+  color: #8a04d4;
 }
 footer .footer-logo a .fa-twitter {
-  color: #45C3D2;
+  color: #45c3d2;
 }
 footer .footer-logo a .fa-linkedin-in {
-  color: #0077B5;
+  color: #0077b5;
 }
 footer .info h5 {
   font-size: 17px;
@@ -674,6 +679,22 @@ footer .footer-contact img {
   .header .header-img {
     margin-top: -50px;
   }
+
+  .we-are-in .we-are-in-img {
+    position: unset;
+  }
+
+  .faq .faq-img {
+    position: unset;
+  }
+
+  .sma-team .sma-team-slider .slick-next {
+    right: -43px;
+  }
+
+  .sma-team .sma-team-slider .slick-prev {
+    left: 20px;
+  }
 }
 @media (max-width: 800px) {
   .navbar .navbar-brand {
@@ -718,10 +739,10 @@ footer .footer-contact img {
   }
 
   .sma-team .sma-team-slider .slick-next {
-    right: 53px;
+    right: -22px;
   }
   .sma-team .sma-team-slider .slick-prev {
-    left: 0;
+    left: 22px;
   }
 
   .all-services .serv {
@@ -737,6 +758,10 @@ footer .footer-contact img {
 
   .we-are-in .we-are-in-img {
     position: unset;
+  }
+
+  .header .circle-1 {
+    display: none !important;
   }
 }
 @media (max-width: 524px) {
@@ -780,6 +805,13 @@ footer .footer-contact img {
 
   .contact {
     padding: 46px 19px;
+  }
+
+  .sma-team-slider .slick-next {
+    right: 0px !important;
+  }
+  .sma-team-slider .slick-prev {
+    left: 55px !important;
   }
 }
 .about-us .about-us-img .card-img, .blogs .blogs-cards .card .card-img, .sma-team::after {

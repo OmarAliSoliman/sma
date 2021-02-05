@@ -1,13 +1,21 @@
 $(document).ready(function () {
+
+  var currentDir = $('a').css('direction');
+  console.log(currentDir);
+
+  // const answer = currentDir == 'rtl' ? true:false;
+  // console.log(answer);
   
   if ($(".sma-team-slider").length) {
     $(".sma-team-slider").slick({
       dots: false,
       // centerMode: true,
       // centerPadding: '60px',
+      cssEase: 'linear',
       focusOnSelect: true,
       infinite: false,
       speed: 300,
+      rtl: currentDir == 'rtl' ? true:false,
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
