@@ -50,10 +50,32 @@ $(document).ready(function () {
       ],
     });
   }
-  $(".dasboard-content").niceScroll({
-    cursorcolor: "rgb(152, 147, 147)",
-    cursorwidth: "8px",
-    cursorborder: "1px solid rgb(152, 147, 147)",
-    // horizrailenabled:false,
-  });
+
+  if($('.dasboard-content').length){
+    $(".dasboard-content").niceScroll({
+      cursorcolor: "rgb(152, 147, 147)",
+      cursorwidth: "8px",
+      cursorborder: "1px solid rgb(152, 147, 147)",
+      // horizrailenabled:false,
+    });
+  }
+
+
+  if ($(".funcy-box-media").length) {
+    $(".funcy-box-media").fancybox({
+      transitionIn: "none",
+      transitionOut: "none",
+      titlePosition: "over",
+      titleFormat: function (title, currentArray, currentIndex, currentOpts) {
+        return (
+          '<span id="fancybox-title-over">Image ' +
+          (currentIndex + 1) +
+          " / " +
+          currentArray.length +
+          (title.length ? " &nbsp; " + title : "") +
+          "</span>"
+        );
+      },
+    });
+  }
 });
