@@ -1,21 +1,20 @@
 $(document).ready(function () {
-
-  var currentDir = $('a').css('direction');
+  var currentDir = $("a").css("direction");
   console.log(currentDir);
 
   // const answer = currentDir == 'rtl' ? true:false;
   // console.log(answer);
-  
+
   if ($(".sma-team-slider").length) {
     $(".sma-team-slider").slick({
       dots: false,
       // centerMode: true,
       // centerPadding: '60px',
-      cssEase: 'linear',
+      cssEase: "linear",
       focusOnSelect: true,
       infinite: false,
       speed: 300,
-      rtl: currentDir == 'rtl' ? true:false,
+      rtl: currentDir == "rtl" ? true : false,
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
@@ -51,6 +50,10 @@ $(document).ready(function () {
       ],
     });
   }
-
+  $(".dasboard-content").niceScroll({
+    cursorcolor: "rgb(152, 147, 147)",
+    cursorwidth: "8px",
+    cursorborder: "1px solid rgb(152, 147, 147)",
+    // horizrailenabled:false,
+  });
 });
-
