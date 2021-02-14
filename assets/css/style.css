@@ -953,6 +953,41 @@ footer .footer-contact img {
   height: 200px;
 }
 
+.login-admin {
+  background-color: #36393F;
+  width: 50%;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.login-admin .form-control {
+  height: 50px;
+}
+.login-admin h5, .login-admin p {
+  color: #fff;
+}
+.login-admin .btn {
+  background-color: #7289da;
+  width: 200px;
+  color: #fff;
+}
+.login-admin .btn:hover {
+  background-color: #677BC4;
+}
+.login-admin .reset-password {
+  text-align: right;
+  margin-top: 25px;
+}
+.login-admin .reset-password p {
+  font-size: 15px;
+}
+.login-admin .reset-password p a {
+  color: #7289da;
+}
+
 @media (max-width: 1024px) {
   .header {
     margin-top: 100px;
@@ -1055,6 +1090,10 @@ footer .footer-contact img {
     position: unset;
     transform: none;
   }
+
+  .login-admin {
+    width: 90%;
+  }
 }
 @media (max-width: 524px) {
   .circle-1 {
@@ -1112,6 +1151,10 @@ footer .footer-contact img {
 
   .side-mobile-dashboard {
     display: block;
+  }
+
+  .login-admin {
+    width: 100%;
   }
 }
 .about-us .about-us-img .card-img, .blogs .blogs-cards .card .card-img, .sma-team::after, .navbar-dashboard .navbar-nav .dropdown img, .blog-details .blog-details-content .gallery .card-img {

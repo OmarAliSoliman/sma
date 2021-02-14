@@ -1079,6 +1079,41 @@ footer {
   }
 }
 
+.login-admin{
+  background-color: #36393F;
+  width: 50%;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 20px 0 rgb(0 0 0 / 10%);
+  .form-control{
+    height: 50px;
+  }
+  h5, p{
+    color: #fff;
+  }
+  .btn{
+    background-color: #7289da;
+    width: 200px;
+    color: #fff;
+    &:hover{
+      background-color: #677BC4;
+    }
+  }
+  .reset-password{
+    text-align: right;
+    margin-top: 25px;
+    p{
+      font-size: 15px;
+      a{
+        color: #7289da;
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .header {
     margin-top: 100px;
@@ -1199,6 +1234,9 @@ footer {
     position: unset;
     transform: none;
   }
+  .login-admin{
+    width: 90%;
+  }
 }
 
 @media (max-width: 524px) {
@@ -1270,6 +1308,9 @@ footer {
   }
   .side-mobile-dashboard {
     display: block;
+  }
+  .login-admin{
+    width: 100%;
   }
 }
 
