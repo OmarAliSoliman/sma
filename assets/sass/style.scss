@@ -1083,7 +1083,7 @@ footer {
   background-color: #36393F;
   width: 50%;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 140px;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
@@ -1102,16 +1102,16 @@ footer {
       background-color: #677BC4;
     }
   }
-  .reset-password{
-    text-align: right;
-    margin-top: 25px;
-    p{
-      font-size: 15px;
-      a{
-        color: #7289da;
-      }
-    }
-  }
+  // .reset-password{
+  //   text-align: right;
+  //   margin-top: 25px;
+  //   p{
+  //     font-size: 15px;
+  //     a{
+  //       color: #7289da;
+  //     }
+  //   }
+  // }
 }
 
 @media (max-width: 1024px) {

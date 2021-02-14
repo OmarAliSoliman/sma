@@ -957,7 +957,7 @@ footer .footer-contact img {
   background-color: #36393F;
   width: 50%;
   margin: auto;
-  margin-top: 120px;
+  margin-top: 140px;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
@@ -976,16 +976,6 @@ footer .footer-contact img {
 }
 .login-admin .btn:hover {
   background-color: #677BC4;
-}
-.login-admin .reset-password {
-  text-align: right;
-  margin-top: 25px;
-}
-.login-admin .reset-password p {
-  font-size: 15px;
-}
-.login-admin .reset-password p a {
-  color: #7289da;
 }
 
 @media (max-width: 1024px) {
