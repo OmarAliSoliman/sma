@@ -563,13 +563,13 @@ img {
 
 .contact-parent {
   overflow: hidden;
-  height: 750px;
+  height: 1000px;
   padding-top: 150px;
 }
 
 .contact {
   background-color: #dcf4ff;
-  height: 575px;
+  height: 960px;
   padding: 46px 51px;
   border-radius: 14px;
   position: relative;
@@ -586,6 +586,8 @@ img {
   height: 61px;
   border: 0;
   border-radius: 9px;
+  position: relative;
+  z-index: 999;
 }
 .contact .contact-form .form-group .form-control::placeholder {
   font-size: 14px;
@@ -597,7 +599,7 @@ img {
 .contact .contact-img {
   position: absolute;
   left: -250px;
-  top: -220px;
+  top: 60px;
 }
 .contact .contact-img img {
   max-width: 1122px !important;

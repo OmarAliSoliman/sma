@@ -632,12 +632,13 @@ img {
 // contact
 .contact-parent {
   overflow: hidden;
-  height: 750px;
+  height: 1000px;
   padding-top: 150px;
+  // border: 1px solid #000;
 }
 .contact {
   background-color: #dcf4ff;
-  height: 575px;
+  height: 960px;
   padding: 46px 51px;
   border-radius: 14px;
   position: relative;
@@ -654,6 +655,8 @@ img {
         height: 61px;
         border: 0;
         border-radius: 9px;
+        position: relative;
+        z-index: 999;
         &::placeholder {
           font-size: 14px;
           color: #c8c8c8;
@@ -667,7 +670,7 @@ img {
   .contact-img {
     position: absolute;
     left: -250px;
-    top: -220px;
+    top: 60px;
     img {
       max-width: 1122px !important;
       width: 1122px !important;
