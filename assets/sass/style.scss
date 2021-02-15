@@ -841,6 +841,18 @@ footer {
   }
 }
 
+.text-editor-content{
+    height: 570px;
+    overflow: auto;
+    .tox-tinymce{
+    border-radius: 10px;
+  }
+  input[type='text']{
+    height: 50px;
+    margin-bottom: 20px;
+  }
+}
+
 .main-dasboard {
   .side-bar {
     height: 570px;

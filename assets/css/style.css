@@ -742,6 +742,18 @@ footer .footer-contact img {
   border-radius: 20px;
 }
 
+.text-editor-content {
+  height: 570px;
+  overflow: auto;
+}
+.text-editor-content .tox-tinymce {
+  border-radius: 10px;
+}
+.text-editor-content input[type=text] {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
 .main-dasboard .side-bar {
   height: 570px;
   background-color: #262b40;
