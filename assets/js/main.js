@@ -79,9 +79,11 @@ $(document).ready(function () {
     });
   }
 
-  tinymce.init({
-    selector: '#textareatexteditopr'
-  });
+  if($('#textareatexteditopr').length){
+    tinymce.init({
+      selector: '#textareatexteditopr'
+    });
+  }
 
 
 });
