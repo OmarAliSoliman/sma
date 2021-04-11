@@ -731,7 +731,7 @@ footer .footer-contact img {
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
 }
 .services-page .card-serv:hover .card-icon {
-  background-color: #36393F;
+  background-color: #36393f;
 }
 
 .serv-details .card {
@@ -739,7 +739,7 @@ footer .footer-contact img {
 }
 .serv-details .card-space {
   height: 300px;
-  background-color: #36393F;
+  background-color: #36393f;
   text-align: center;
   color: #fff;
   border: 0;
@@ -1047,7 +1047,7 @@ footer .footer-contact img {
   font-size: 15px;
   text-align: center;
   color: #a1a1a1;
-  border: 1px solid #DDD;
+  border: 1px solid #ddd;
   margin: 5px;
   transition: all 0.5s ease;
   text-decoration: none;
@@ -1059,7 +1059,7 @@ footer .footer-contact img {
 }
 
 .login-admin {
-  background-color: #36393F;
+  background-color: #36393f;
   width: 50%;
   margin: auto;
   margin-top: 140px;
@@ -1071,7 +1071,8 @@ footer .footer-contact img {
 .login-admin .form-control {
   height: 50px;
 }
-.login-admin h5, .login-admin p {
+.login-admin h5,
+.login-admin p {
   color: #fff;
 }
 .login-admin .btn {
@@ -1080,7 +1081,7 @@ footer .footer-contact img {
   color: #fff;
 }
 .login-admin .btn:hover {
-  background-color: #677BC4;
+  background-color: #677bc4;
 }
 
 @media (max-width: 1024px) {
@@ -1303,6 +1304,16 @@ footer .footer-contact img {
   font-size: 14px;
   color: #45c3d2;
   margin-left: 5px;
+}
+
+.add-new-serv-form {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .add-new-serv-form {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

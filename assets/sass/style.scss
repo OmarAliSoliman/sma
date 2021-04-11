@@ -398,7 +398,7 @@ img {
         @extend %imgAsBackGround;
         border-top-right-radius: 27px;
         border-bottom-left-radius: 33px;
-        transition: all .5s ease;
+        transition: all 0.5s ease;
       }
       .card-body {
         padding-top: 0;
@@ -412,7 +412,7 @@ img {
         color: #000;
         text-decoration: none;
         display: inline-block;
-        transition: all .5s ease;
+        transition: all 0.5s ease;
       }
       .card-text {
         font-size: 13px;
@@ -425,11 +425,11 @@ img {
         color: $mainColor;
         display: inline-block;
       }
-      &:hover{
-        .card-title{
+      &:hover {
+        .card-title {
           color: $mainColor;
         }
-        .card-img{
+        .card-img {
           border-radius: 0;
         }
       }
@@ -779,23 +779,23 @@ footer {
   }
 }
 
-.services-page{
-  .serv-head{
+.services-page {
+  .serv-head {
     text-align: center;
     font-size: 42px;
     margin: 0;
     margin-top: 58px;
     margin-bottom: 58px;
   }
-  .card-serv{
+  .card-serv {
     text-align: center;
     background-color: #fff;
     box-shadow: 0 6px 22px rgb(0 0 0 / 10%);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-    transition: all .5s ease;
-    .card-icon{
+    transition: all 0.5s ease;
+    .card-icon {
       width: 50px;
       height: 50px;
       background-color: $mainColor;
@@ -803,13 +803,13 @@ footer {
       line-height: 55px;
       text-align: center;
       margin: auto;
-      transition: all .5s ease;
-      i{
+      transition: all 0.5s ease;
+      i {
         color: #fff;
         font-size: 20px;
       }
     }
-    .card-title{
+    .card-title {
       margin: 0;
       font-size: 20px;
       color: $mainColor;
@@ -817,36 +817,36 @@ footer {
       margin-top: 10px;
       text-decoration: none;
     }
-    &:hover{
+    &:hover {
       box-shadow: 0 3px 15px rgb(0 0 0 / 5%);
-      .card-icon{
-        background-color: #36393F;
+      .card-icon {
+        background-color: #36393f;
       }
     }
   }
 }
 
-.serv-details{
-  .card{
+.serv-details {
+  .card {
     margin-bottom: 20px;
   }
-  .card-space{
+  .card-space {
     height: 300px;
-    background-color: #36393F;
+    background-color: #36393f;
     text-align: center;
     color: #fff;
     border: 0;
-    h5{
+    h5 {
       line-height: 300px;
     }
   }
-  .card-disscount{
+  .card-disscount {
     height: 300px;
     background-color: $mainColor;
     text-align: center;
     color: #fff;
     border: 0;
-    h5{
+    h5 {
       line-height: 300px;
     }
   }
@@ -914,13 +914,13 @@ footer {
   }
 }
 
-.text-editor-content{
-    height: 570px;
-    overflow: auto;
-    .tox-tinymce{
+.text-editor-content {
+  height: 570px;
+  overflow: auto;
+  .tox-tinymce {
     border-radius: 10px;
   }
-  input[type='text']{
+  input[type="text"] {
     height: 50px;
     margin-bottom: 20px;
   }
@@ -1084,7 +1084,7 @@ footer {
           }
         }
         &:hover .overlay {
-          background-color: rgba(69, 195, 210, .8);
+          background-color: rgba(69, 195, 210, 0.8);
           opacity: 1;
         }
       }
@@ -1149,26 +1149,26 @@ footer {
       }
     }
   }
-  .blogs{
-    .blogs-cards{
-      .blogs-sidebar-header{
+  .blogs {
+    .blogs-cards {
+      .blogs-sidebar-header {
         font-size: 30px;
       }
-      .card{
+      .card {
         margin-bottom: 20px;
-        .card-img{
+        .card-img {
           height: 200px;
         }
       }
     }
   }
-  .key-words{
+  .key-words {
     border-top: 1px solid #f5f5f5;
     border-bottom: 1px solid #f5f5f5;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
-    a{
+    a {
       display: inline-block;
       // width: 100px;
       border-radius: 5px;
@@ -1176,11 +1176,11 @@ footer {
       font-size: 15px;
       text-align: center;
       color: #a1a1a1;
-      border: 1px solid #DDD;
+      border: 1px solid #ddd;
       margin: 5px;
-      transition: all .5s ease;
+      transition: all 0.5s ease;
       text-decoration: none;
-      &:hover{
+      &:hover {
         background-color: $mainColor;
         border: 1px solid $mainColor;
         color: #fff;
@@ -1189,8 +1189,8 @@ footer {
   }
 }
 
-.login-admin{
-  background-color: #36393F;
+.login-admin {
+  background-color: #36393f;
   width: 50%;
   margin: auto;
   margin-top: 140px;
@@ -1198,18 +1198,19 @@ footer {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 1px 20px 0 rgb(0 0 0 / 10%);
-  .form-control{
+  .form-control {
     height: 50px;
   }
-  h5, p{
+  h5,
+  p {
     color: #fff;
   }
-  .btn{
+  .btn {
     background-color: #7289da;
     width: 200px;
     color: #fff;
-    &:hover{
-      background-color: #677BC4;
+    &:hover {
+      background-color: #677bc4;
     }
   }
   // .reset-password{
@@ -1340,11 +1341,11 @@ footer {
   .header .circle-1 {
     display: none !important;
   }
-  .pagination{
+  .pagination {
     position: unset;
     transform: none;
   }
-  .login-admin{
+  .login-admin {
     width: 90%;
   }
 }
@@ -1419,7 +1420,7 @@ footer {
   .side-mobile-dashboard {
     display: block;
   }
-  .login-admin{
+  .login-admin {
     width: 100%;
   }
 }
@@ -1499,5 +1500,15 @@ footer {
       color: $mainColor;
       margin-left: 5px;
     }
+  }
+}
+
+.add-new-serv-form {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .add-new-serv-form {
+    width: 100%;
   }
 }
