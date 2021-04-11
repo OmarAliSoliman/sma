@@ -1507,33 +1507,24 @@ footer {
   width: 50%;
 }
 
-.sma-services{
-  .slider-item{
+.sma-services {
+  .slider-item {
     margin: 10px;
-    &:focus{
+    margin-bottom: 50px;
+    &:focus {
       outline: 0 !important;
     }
   }
-  .card{
-    margin-bottom: 50px;
+  .card {
     display: block;
     text-align: center;
-    padding: 30px;
+    padding: 5px;
     position: relative;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
     text-decoration: none;
-    height: 100px;
-    .card-number{
-      font-size: 80px;
-      color: #DDD;
-      font-weight: normal;
-      opacity: .7;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .card-title{
+    border: 1px solid #fff;
+    height: 220px;
+    .card-title {
       margin: 0;
       color: #000;
       text-decoration: none;
@@ -1544,9 +1535,29 @@ footer {
       text-overflow: ellipsis;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
+      text-align: right;
+      margin-top: 20px;
+      margin-bottom: 10px;
     }
-    &:hover{
+    &:hover {
       transform: translateY(-5px);
+      background-color: $mainColor;
+      border: 1px solid #fff;
+      .card-title {
+        color: #fff;
+      }
+    }
+    .card-link{
+      position: absolute;
+      bottom: 12px;
+      left: 15px;
+      color: $mainColor;
+      font-size: 20px;
+    }
+    .card-img {
+      height: 150px;
+      background-size: cover;
+      background-position: center;
     }
   }
   .slick-dots {

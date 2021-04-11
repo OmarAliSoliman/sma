@@ -1312,29 +1312,20 @@ footer .footer-contact img {
 
 .sma-services .slider-item {
   margin: 10px;
+  margin-bottom: 50px;
 }
 .sma-services .slider-item:focus {
   outline: 0 !important;
 }
 .sma-services .card {
-  margin-bottom: 50px;
   display: block;
   text-align: center;
-  padding: 30px;
+  padding: 5px;
   position: relative;
   transition: all 0.5s ease;
   text-decoration: none;
-  height: 100px;
-}
-.sma-services .card .card-number {
-  font-size: 80px;
-  color: #DDD;
-  font-weight: normal;
-  opacity: 0.7;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  height: 220px;
 }
 .sma-services .card .card-title {
   margin: 0;
@@ -1347,9 +1338,29 @@ footer .footer-contact img {
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .sma-services .card:hover {
   transform: translateY(-5px);
+  background-color: #45c3d2;
+  border: 1px solid #fff;
+}
+.sma-services .card:hover .card-title {
+  color: #fff;
+}
+.sma-services .card .card-link {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  color: #45c3d2;
+  font-size: 20px;
+}
+.sma-services .card .card-img {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
 }
 .sma-services .slick-dots {
   text-align: center;
