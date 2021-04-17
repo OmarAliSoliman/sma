@@ -695,35 +695,57 @@ footer .footer-contact img {
   content: "";
 }
 
+.path {
+  text-align: right;
+  background-color: #ddd;
+  padding: 20px;
+}
+.path span::before {
+  font-family: "Font Awesome 5 Free";
+  margin-left: 6px;
+  margin-right: 6px;
+  content: "";
+  font-weight: 900;
+  font-size: 13px;
+}
+.path .first::before {
+  content: "" !important;
+}
+.path a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+.path a:hover {
+  color: #45c3d2;
+}
+
 .services-page .serv-head {
   text-align: center;
   font-size: 42px;
   margin: 0;
   margin-top: 58px;
-  margin-bottom: 58px;
+  margin-bottom: 38px;
+}
+.services-page .slider-item {
+  margin: 10px;
+}
+.services-page .slider-item:focus {
+  outline: 0 !important;
 }
 .services-page .card-serv {
   text-align: center;
   background-color: #fff;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   transition: all 0.5s ease;
 }
-.services-page .card-serv .card-icon {
-  width: 50px;
-  height: 50px;
-  background-color: #45c3d2;
-  border-radius: 50%;
-  line-height: 55px;
-  text-align: center;
-  margin: auto;
-  transition: all 0.5s ease;
-}
-.services-page .card-serv .card-icon i {
-  color: #fff;
-  font-size: 20px;
+.services-page .card-serv .card-img {
+  height: 150px;
+  background-position: center;
+  background-size: cover;
 }
 .services-page .card-serv .card-title {
   margin: 0;

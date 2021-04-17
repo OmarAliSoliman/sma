@@ -98,6 +98,51 @@ $(document).ready(function () {
     });
   }
 
+  if ($(".categorey-slider").length) {
+    $(".categorey-slider").slick({
+      dots: false,
+      cssEase: "linear",
+      focusOnSelect: false,
+      infinite: false,
+      speed: 300,
+      // rtl: currentDir == "rtl" ? true : false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      loop: true,
+      arrows: false,
+      dots: true,
+      infinite: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 524,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+          },
+        },
+      ],
+    });
+  }
+
   if ($(".dasboard-content").length) {
     $(".dasboard-content").niceScroll({
       cursorcolor: "rgb(152, 147, 147)",
