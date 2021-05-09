@@ -1593,4 +1593,9 @@ footer .footer-contact img {
   }
 }
 
+.categor strong{
+  /* line-break: auto; */
+  overflow-wrap: br eak-word;
+}
+
 /*# sourceMappingURL=style.css.map */

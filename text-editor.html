@@ -93,7 +93,7 @@
         <div class="col-sm-12 col-md-8 col-lg-9">
           <div class="text-editor-content">
             <input type="text" name="" id="" class="form-control">
-            <textarea name="" id="textareatexteditopr" class="form-control" id="" style="height: 600px;"></textarea>
+            <textarea name="editor1" id="textareatexteditopr" class="form-control" id="" style="height: 800px;"></textarea>
           </div>
         </div>
       </div>
@@ -107,8 +107,12 @@
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
   <script src="./assets/js/jquery.nicescroll.min.js"></script>
-  <script src="./assets/tinymce/js/tinymce/tinymce.min.js"></script>
-  <script src="./assets/js/main.js"></script>
+  <!-- <script src="./assets/tinymce/js/tinymce/tinymce.min.js"></script> -->
+  <script src="./ckeditor/ckeditor.js"></script>
+  <!-- <script src="./assets/js/main.js"></script> -->
+  <script>
+    CKEDITOR.replace('editor1');
+  </script>
 </body>
 
 </html>
